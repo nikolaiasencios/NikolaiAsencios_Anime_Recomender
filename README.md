@@ -11,8 +11,8 @@ docker pull ghcr.io/nikolaiasencios/anime-recommender:d59dcbcccdfd9f47c788784cce
 1)  Desde la ruta raíz, ejecutar el docker reemplazando "YOUR KEY" por su KEY de gemini.
    
 $env:GOOGLE_API_KEY="YOUR KEY"
-docker run -p 8000:8000 `
 
+docker run -p 8000:8000 `
 -e GOOGLE_API_KEY=$env:GOOGLE_API_KEY `
 anime-recommender
 
