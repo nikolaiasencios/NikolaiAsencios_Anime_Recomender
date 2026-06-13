@@ -16,6 +16,10 @@ docker run -p 8000:8000 `
 -e GOOGLE_API_KEY=$env:GOOGLE_API_KEY `
 anime-recommender
 
+3) Ingresar a la URL:
+
+http://localhost:8000/docs
+
 # Descripción de la app
 
 El usuario describe sus preferencias en lenguaje natural (por ejemplo:
