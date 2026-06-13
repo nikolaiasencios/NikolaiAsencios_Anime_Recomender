@@ -1,8 +1,6 @@
 # Anime Recommender API
 
-API de recomendación de anime desarrollada con FastAPI y Gemini.
-
-# Anime Recommender API
+API de recomendación de animes desarrollada con FastAPI y Gemini.
 
 Indicaciones de ejecución del docker:
 
