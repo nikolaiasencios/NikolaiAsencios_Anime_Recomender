@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    image: anime-recommender:latest
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+
+    restart: unless-stopped
