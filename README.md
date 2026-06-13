@@ -5,6 +5,7 @@ API de recomendación de animes desarrollada con FastAPI y Gemini.
 Indicaciones de ejecución del docker:
 
 1) En la terminal ejecutar lo siguiente para descargar el docker:
+
 docker pull ghcr.io/nikolaiasencios/anime-recommender:d2420e989af6d48428c8082a720faabf8ec21be0
 
 2) Ejecutar el docker reemplazando "YOUR KEY" por tu KEY de gemini.
