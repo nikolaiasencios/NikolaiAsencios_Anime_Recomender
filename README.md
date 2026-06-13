@@ -4,19 +4,18 @@ API de recomendación de animes desarrollada con FastAPI y Gemini.
 
 Indicaciones de ejecución del docker:
 
-1) En la terminal ejecutar lo siguiente para descargar el docker:
+0) Puede descargar el winrar adjunto en la entrega de la tarea y descomprimir los archivos o en la terminal ejecutar lo siguiente para descargar el docker directamente desde Github:
 
-docker pull ghcr.io/nikolaiasencios/anime-recommender:d2420e989af6d48428c8082a720faabf8ec21be0
+docker pull ghcr.io/nikolaiasencios/anime-recommender:d59dcbcccdfd9f47c788784cceaea49f7d2da222
 
-2) Ejecutar el docker reemplazando "YOUR KEY" por tu KEY de gemini.
-
+1)  Desde la ruta raíz, ejecutar el docker reemplazando "YOUR KEY" por su KEY de gemini.
+   
 $env:GOOGLE_API_KEY="YOUR KEY"
-
 docker run -p 8000:8000 `
 -e GOOGLE_API_KEY=$env:GOOGLE_API_KEY `
 anime-recommender
 
-3) Ingresar a la URL:
+2) Abrir la siguiente URL para realizar consultas como "Recomiendame un anime similar a Dragon Ball.", "Recomiendame un anime romántico", etc.
 
 http://localhost:8000/docs
 
