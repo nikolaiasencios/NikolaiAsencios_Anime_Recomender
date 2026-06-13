@@ -12,6 +12,7 @@ docker pull ghcr.io/nikolaiasencios/anime-recommender:d59dcbcccdfd9f47c788784cce
    
 $env:GOOGLE_API_KEY="YOUR KEY"
 docker run -p 8000:8000 `
+
 -e GOOGLE_API_KEY=$env:GOOGLE_API_KEY `
 anime-recommender
 
